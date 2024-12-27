@@ -1,0 +1,14 @@
+level = "DEBUG"
+
+[context]
+format = "text"
+show_caller = true
+
+[output]
+console = true
+file = true
+compress = false
+file_path = "/tmp/app.log"
+max_age = 7
+max_backups = 30
+max_size = 10
