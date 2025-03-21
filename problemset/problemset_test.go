@@ -33,7 +33,7 @@ func TestRecentStatus(t *testing.T) {
 	})
 
 	var err error
-	var result = []Submission{}
+	var result []Submission
 
 	var par = RecentStatusPar{
 		Count:          10,
